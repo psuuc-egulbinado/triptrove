@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Trove</title>
+    <link rel="shortcut icon" href="img/favlogo.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #cov{
+            background-image: url("img/bg1.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            overflow-y: scroll;
+            width: 1400px;
+            height: 930px;
+
+        }
+        #navbar{
+            background-color: rgba(255, 255, 255, 0);
+            width: 95%;
+            height: 55px;
+            border-radius: 7px;
+            margin-top: 20px;
+            margin-left: 16px;         
+        }
+        #uplogo{
+           height: 32px; 
+           margin-top: 10px;
+           margin-left: 15px;
+        }
+        nav ul{
+            float: right;
+            margin-top: 19px;
+            margin-right: 15px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            margin: 0px 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        nav ul li a:hover{
+            border-bottom: #FED83F 3px solid;
+            transition: background-color 0.4s ease-in-out, color 0.4s linear; 
+        }
+        h1{
+            color: white;
+            margin-left:8%;
+            margin-top: 20%;
+            font-size: 70px;
+            letter-spacing: 2px;
+        }
+        #tag{
+            color: white;
+            font-size: 25px;
+            letter-spacing: 2px;
+            margin-left: 8%;
+            margin-bottom: 30px;
+        }
+        #lm{
+            text-decoration: none;
+            font-size: 20px;
+            color: #FED83F;
+            margin-left: 8%;
+            letter-spacing: 2px;
+            border: solid #FED83F 1px;
+            padding: 10px 25px;
+            border-radius: 5px;
+        }
+        #soc{
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 65px;
+            display: flex;
+            
+        }
+        #psoc{
+            letter-spacing: 1px;
+            padding-top: 20px;
+            padding-left: 20px;         
+        }
+        #socmeds{
+            float: right;
+            height: 30px;
+            margin-top: 16px;
+            margin-left: 50%;
+        }
+        #foot{
+            background-color: #04100E;
+            width: 1400px;
+            height: 190px;
+        }
+        #footlogo{
+            height: 25px;
+            margin-bottom: 15px;
+        }
+        #tagfoot{
+            color: white;
+            letter-spacing: 1px;
+            margin-left: 30px;
+            margin-top: 40px;
+            font-size: 15px;
+        }
+        #foott{
+            background-color: rgb(0, 0, 0);
+            height: 50px;
+        }
+        #c{
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            padding-top: 18px;
+        }
+        .row{          
+            display: flex;
+        }
+        .col{
+            margin-left: 70px;
+            margin-top: 35px;
+            color: white;
+            font-size: 15px;
+        }
+        .col ul{
+            list-style-type: none;
+        }
+        #cont{
+            margin-left: 400px;
+            display: flex;
+        }
+#cont ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+       #book{
+            background-color: #FED83F;
+            color: black;
+            border-radius: 5px;
+            padding: 10px 20px;
+       }
+       #book:hover{
+            background: white;
+            color: black;
+            border-radius: 5px;
+            transition: background-color 0.4s ease-in-out, color 0.4s linear; 
+            border: none;
+       }
+       #lm:hover{
+            background: white;
+            color: black;
+            border-radius: 5px;
+            border-color: white;
+            transition: background-color 0.4s ease-in-out, color 0.4s linear; 
+       }
+    </style>
+
+</head>
+<body>
+    <div id="cov">
+       <nav id="navbar">
+        <img id="uplogo" src="img/logo1.png" alt="">
+
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">PACKAGES</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a id="book" href="">BOOK</a></li>
+        </ul>
+       </nav>
+
+       <h1>Travel Booking Platform</h1>
+       <p id="tag"> From breathtaking beaches to awe-inspiring landscapes, we <br> help you plan unforgettable journeys that create memories <br> to last a lifetime.</p>
+
+       <a id="lm" href="">Learn More</a>
+    </div>
+
+    <div id="soc">
+        <p id="psoc">Get connected with us on social media networks:</p>
+        <img id="socmeds" src="img/socmeds.png" alt="">
+    </div>
+
+    <div id="foot"> 
+        <div class="row">
+        
+        <p  id="tagfoot"><img  id="footlogo" src="img/logo1.png" alt=""> <br> Legal Disclaimer: All content and <br> information on this website is for informational <br> and educational purposes only and does not <br> constitute educational/teaching advice.</p>
+        
+       <div id="cont">
+        <div class="col">
+            <h4>LINKS</h4>
+            <br>
+            <ul>
+                <li><a href="">Home</a> </li>
+                <li><a href="">Packages</a> </li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="col">
+            <h4 id="contact" >CONTACT</h4>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> triptrove@gmail.com</a> </li>
+                <li><a href=""><i class="fa-solid fa-phone" style="color: #ffffff;"></i> 09123456789</a> </li>
+                <li><a href=""><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Manaoag, Pangasinan</a> </li>
+            </ul>
+        </div>
+    </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="foott">
+        <p id="c">&copy; 2023 Copyright: Web Development</p>
+    </div>
+</body>
+</html>
